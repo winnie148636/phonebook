@@ -94,5 +94,5 @@ int main(int argc, char *argv[])
     if (pHead->pNext) free(pHead->pNext);
     free(pHead);
     //TODO: return the right value
-    return 1;
+    return 0;
 }
